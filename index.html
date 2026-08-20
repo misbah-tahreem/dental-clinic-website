@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmileCare Dental Clinic</title>
+    <!-- Google Fonts for Premium Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600&display=swap"
+        rel="stylesheet" />
+    <!-- Font Awesome 6 (free) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="container header-container">
+            <!-- Left: Logo -->
+            <div class="logo">
+                <span class="logo-icon"><i class="fas fa-smile"></i></span>
+                <div class="logo-text">
+                    <span class="logo-main">SmileCare</span>
+                    <span class="logo-sub">DENTAL CLINIC</span>
+                </div>
+            </div>
+
+            <!-- Center: Navigation (Desktop) -->
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#doctor">Doctor</a></li>
+                    <li><a href="#timings">Timings</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Right: Book Appointment Button (Desktop) -->
+            <div class="header-actions">
+                <a href="#contact" class="btn-outline">Book an Appointment</a>
+            </div>
+
+            <!-- Mobile Hamburger -->
+            <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section id="hero" class="hero">
+            <div class="container hero-container">
+                <div class="hero-image">
+                    <img src="images/hero.jpg" alt="SmileCare Dental Clinic, modern and welcoming environment" />
+                </div>
+                <div class="hero-content">
+                    <span class="hero-tagline">Premium Dental Care</span>
+                    <h1>Healthy Smiles Start Here</h1>
+                    <p>Professional dental care for the whole family.</p>
+                    <a href="#contact" class="btn-primary hero-btn">Book an Appointment</a>
+                </div>
+            </div>
+            <!-- Organic wave shape (CSS) -->
+            <div class="hero-wave"></div>
+        </section>
+
+        <!-- SERVICES SECTION -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="service-grid">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-tooth"></i></div>
+                        <h3>General Dentistry</h3>
+                        <p>Routine checkups, cleaning and preventive dental care.</p>
+                        <span class="service-arrow"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-star"></i></div>
+                        <h3>Teeth Whitening</h3>
+                        <p>Professional whitening for a brighter smile.</p>
+                        <span class="service-arrow"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-arrow-alt-circle-up"></i></div>
+                        <h3>Dental Implants</h3>
+                        <p>Permanent replacement solutions for missing teeth.</p>
+                        <span class="service-arrow"><i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
